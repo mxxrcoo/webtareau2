@@ -108,7 +108,9 @@ form button:hover {
 
 /* estilo para las imagenes de la web */
 img {
-    max-width: 100%;
+
+    width: 200px; /* Ancho fijo */
+    height: 200px; /* Alto fijo */
     border-radius: 5px;
     margin: 10px 0;
 }
