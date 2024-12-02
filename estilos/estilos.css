@@ -1,0 +1,153 @@
+/* RESET de estilos para garantizar que todos los navegadores se vean de la misma manera */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aqui la tipografia */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* para la cabecera */
+header {
+    background-color: #004d99;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* los estilos de la barra de navegacion */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* secciones principal */
+main {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #004d99;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* estilo del formulario de contacto */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"], form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #004d99;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+
+/* estilo para las imagenes de la web */
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+
+/* estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+/* esto cambia el color al pasar el cursor por la fila de la tabla, muy interesante! */ 
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* aqui para el pie de pagina footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+

@@ -1,0 +1,75 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Inicio - Mi Localidad</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Vegas Altas (Navalvillar de Pela)</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="tradiciones.html">Tradiciones</a></li>
+                <li><a href="datosEstadisticos.html">Datos Estadísticos</a></li>
+                <li><a href="informacionTuristica.html">Información Turística</a></li>
+                <li><a href="contenidoMultimedia.html">Contenido Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="procesarFormulario.php" method="POST">
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required><br><br>
+
+                <!-- Correo Electrónico -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu correo" required><br><br>
+
+                <!-- Mensaje -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje" required></textarea><br><br>
+
+                <!-- Checkbox -->
+                <label for="suscripcion">¿Deseas suscribirte a nuestro boletín?</label>
+                <input type="checkbox" id="suscripcion" name="suscripcion" value="sí"><br><br>
+
+                <!-- Radio Button -->
+                <label>¿Cómo conociste nuestro sitio web?</label><br>
+                <input type="radio" id="recomendacion" name="origen" value="Recomendación">
+                <label for="recomendacion">Recomendación</label><br>
+                <input type="radio" id="buscador" name="origen" value="Buscador">
+                <label for="buscador">Buscador</label><br>
+                <input type="radio" id="redes" name="origen" value="Redes Sociales">
+                <label for="redes">Redes Sociales</label><br><br>
+
+                <!-- Lista Desplegable -->
+                <label for="categoria">Categoría del mensaje:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="queja">Queja</option>
+                </select><br><br>
+
+                <!-- Aceptar términos y condiciones (checkbox obligatorio) -->
+                <label for="terminos">Acepto los <a href="terminos.html" target="_blank">términos y condiciones</a>:</label>
+                <input type="checkbox" id="terminos" name="terminos" value="aceptado" required><br><br>
+
+
+                <!-- Botón de Enviar -->
+                <input type="submit" value="Enviar" > <input type="reset" value="Restablecer" >
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Ejercicio Unidad 2</p>
+    </footer>
+</body>
+</html>
