@@ -131,14 +131,6 @@ form button:hover {
     padding: 20px;
 }
 
-/* Contenedor para las fotos de la galería 
-.galeria-contenedor {
-    display: flex;  Flexbox para organizar las imágenes 
-    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si es necesario 
-    justify-content: center;  Centra las imágenes 
-    gap: 15px; /* Espaciado entre las imágenes 
-}
-*/
 
 /* Estilo específico para las imágenes de la galería */
 .foto img{
