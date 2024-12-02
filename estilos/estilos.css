@@ -106,7 +106,7 @@ form button:hover {
 }
 
 /* Contenedor de la portada */
-.portada {
+.portada img{
     text-align: center; /* Centra el contenido */
     background-color: #f0f0f0; /* Fondo claro */
     padding: 20px; /* Espaciado alrededor */
@@ -114,7 +114,7 @@ form button:hover {
 }
 
 /* Estilo específico para la foto de la portada */
-.foto-portada {
+.foto-portada img{
     width: 100%; /* La imagen ocupará todo el ancho del contenedor */
     max-width: 900px; /* Limita el tamaño máximo a 900px */
     height: auto; /* Mantiene la proporción */
@@ -125,22 +125,23 @@ form button:hover {
 }
 
 /* Contenedor de la galería */
-.galeria {
+.galeria img{
     text-align: center;
     background-color: #fff;
     padding: 20px;
 }
 
-/* Contenedor para las fotos de la galería */
+/* Contenedor para las fotos de la galería 
 .galeria-contenedor {
-    display: flex; /* Flexbox para organizar las imágenes */
-    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si es necesario */
-    justify-content: center; /* Centra las imágenes */
-    gap: 15px; /* Espaciado entre las imágenes */
+    display: flex;  Flexbox para organizar las imágenes 
+    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si es necesario 
+    justify-content: center;  Centra las imágenes 
+    gap: 15px; /* Espaciado entre las imágenes 
 }
+*/
 
 /* Estilo específico para las imágenes de la galería */
-.foto-galeria {
+.foto-galeria img{
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
     object-fit: cover; /* Ajusta las imágenes sin distorsionarlas */
