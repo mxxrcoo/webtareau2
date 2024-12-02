@@ -141,7 +141,7 @@ form button:hover {
 */
 
 /* Estilo específico para las imágenes de la galería */
-.galeria .foto img{
+.foto img{
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
     object-fit: cover; /* Ajusta las imágenes sin distorsionarlas */
