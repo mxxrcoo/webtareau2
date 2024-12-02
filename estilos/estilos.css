@@ -105,21 +105,53 @@ form button:hover {
     background-color: #003366;
 }
 
-/* definimos estilo para la clase.foto, ya que esta imagen de la portada tiene un estilo diferente al resto*/
-.portada .foto-portada {
-    width: auto; /* ajusta el ancho de la imagen */
-    height: auto; 
+/* Contenedor de la portada */
+.portada {
+    text-align: center; /* Centra el contenido */
+    background-color: #f0f0f0; /* Fondo claro */
+    padding: 20px; /* Espaciado alrededor */
 }
 
-/* estilo para las imagenes de la web */
-.galeria .foto {
+/* Estilo específico para la foto de la portada */
+.foto-portada {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    max-width: 900px; /* Limita el tamaño máximo a 900px */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    margin: 20px auto; /* Centrado con margen */
+    display: block;
+}
 
+/* Contenedor de la galería */
+.galeria {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Contenedor para las fotos de la galería */
+.galeria-contenedor {
+    display: flex; /* Flexbox para organizar las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si es necesario */
+    justify-content: center; /* Centra las imágenes */
+    gap: 15px; /* Espaciado entre las imágenes */
+}
+
+/* Estilo específico para las imágenes de la galería */
+.foto-galeria {
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
-    border-radius: 5px;
-    margin: 10px 0;
+    object-fit: cover; /* Ajusta las imágenes sin distorsionarlas */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animaciones suaves */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
+.foto-galeria:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
 
 
 
