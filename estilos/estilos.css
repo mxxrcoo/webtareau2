@@ -115,6 +115,13 @@ img {
     margin: 10px 0;
 }
 
+/* definimos estilo para la clase.foto, ya que esta imagen de la portada tiene un estilo diferente al resto*/
+.foto {
+    width: auto; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
 /* centrar la imagen de la portada*/
 
 .center-container {
