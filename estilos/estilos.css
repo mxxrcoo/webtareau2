@@ -107,7 +107,7 @@ form button:hover {
 
 
 /* estilo para las imagenes de la web */
-img {
+.foto-galeria {
 
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
@@ -117,8 +117,8 @@ img {
 
 /* definimos estilo para la clase.foto, ya que esta imagen de la portada tiene un estilo diferente al resto*/
 .foto {
-    width: auto; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: auto; /* ajusta el ancho de la imagen */
+    height: auto; 
 }
 
 
