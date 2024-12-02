@@ -107,7 +107,7 @@ form button:hover {
 
 
 /* estilo para las imagenes de la web */
-.fotogaleria {
+img.fotogaleria {
 
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
