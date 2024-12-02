@@ -141,7 +141,7 @@ form button:hover {
 */
 
 /* Estilo específico para las imágenes de la galería */
-.foto-galeria img{
+.foto img{
     width: 200px; /* Ancho fijo */
     height: 200px; /* Alto fijo */
     object-fit: cover; /* Ajusta las imágenes sin distorsionarlas */
@@ -150,7 +150,7 @@ form button:hover {
     cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
-.foto-galeria:hover {
+.foto:hover {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
 }
