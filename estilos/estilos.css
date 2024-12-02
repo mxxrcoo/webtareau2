@@ -106,7 +106,7 @@ form button:hover {
 }
 
 /* definimos estilo para la clase.foto, ya que esta imagen de la portada tiene un estilo diferente al resto*/
-img.foto {
+#foto-portada {
     width: auto; /* ajusta el ancho de la imagen */
     height: auto; 
 }
