@@ -110,6 +110,7 @@ form button:hover {
     text-align: center; /* Centra el contenido */
     background-color: #f0f0f0; /* Fondo claro */
     padding: 20px; /* Espaciado alrededor */
+    display: flex; /* Flexbox para centrar contenido */
 }
 
 /* Estilo específico para la foto de la portada */
