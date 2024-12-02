@@ -114,7 +114,7 @@ form button:hover {
 }
 
 /* Estilo específico para la foto de la portada */
-.foto-portada {
+.foto-portada img{
     width: 100%; /* La imagen ocupará todo el ancho del contenedor */
     max-width: 900px; /* Limita el tamaño máximo a 900px */
     height: auto; /* Mantiene la proporción */
@@ -125,7 +125,7 @@ form button:hover {
 }
 
 /* Contenedor de la galería */
-.galeria img{
+.galeria {
     text-align: center;
     background-color: #fff;
     padding: 20px;
