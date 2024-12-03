@@ -105,7 +105,7 @@ form button:hover {
     background-color: #003366;
 }
 
-/* Contenedor de la portada */
+/* contenedor de la portada */
 .portada {
     text-align: center; 
     background-color: #f0f0f0;
@@ -113,7 +113,7 @@ form button:hover {
     display: flex; 
 }
 
-/* Estilo específico para la foto de la portada */
+/* estilo específico para la foto de la portada */
 .foto-portada img{
     width: 100%; 
     text-align: center; 
@@ -125,7 +125,7 @@ form button:hover {
     display: block;
 }
 
-/* Contenedor de la galería */
+/* contenedor de la galería */
 .galeria {
     text-align: center;
     background-color: #fff;
@@ -133,20 +133,16 @@ form button:hover {
 }
 
 
-/* Estilo específico para las imágenes de la galería */
+/* estilo específico para las imágenes de la galería */
 .foto img{
     width: 400px; 
     height: 400px; 
     object-fit: cover; 
     border-radius: 5px; 
     transition: transform 0.3s, box-shadow 0.3s; 
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+
 }
 
-.foto:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
-}
 
 
 
